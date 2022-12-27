@@ -1,6 +1,6 @@
 import {createRealmContext} from '@realm/react';
-import {Task} from './Task';
+import { Equipment } from './Equipment';
 
 export const TaskRealmContext = createRealmContext({
-  schema: [Task],
+  schema: [Equipment],
 });

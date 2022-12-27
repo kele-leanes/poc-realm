@@ -8,9 +8,9 @@
   },
   "dependencies": {
     "@realm/react": "^0.4.1",
-    "expo": "~47.0.3",
+    "expo": "~47.0.9",
     "expo-dev-client": "~2.0.0",
-    "expo-splash-screen": "~0.17.4",
+    "expo-splash-screen": "~0.17.5",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
     "react-native": "0.70.5",
