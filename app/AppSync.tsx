@@ -8,6 +8,7 @@ import {shadows} from './styles/shadows';
 import colors from './styles/colors';
 import {OfflineModeButton} from './components/OfflineModeButton';
 import { Equipment } from './models/Equipment';
+import { Task } from './models/Task';
 
 const {useRealm, useQuery} = TaskRealmContext;
 
@@ -16,10 +17,14 @@ export const AppSync: React.FC = () => {
   const user = useUser();
   const app = useApp();
   const result = useQuery(Equipment);
+  const result2 = useQuery(Task);
 
 console.log('====================================');
 console.log(result);
 console.log('====================================');
+console.log(app.currentUser);
+console.log(app.currentUser.id);
+console.log(result2);
 
   const handleLogout = useCallback(() => {
     user?.logOut();
