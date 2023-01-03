@@ -15,7 +15,7 @@ export const AppWrapperSync: React.FC<{
   // If we are logged in, add the sync configuration the the RealmProvider and render the app
   return (
     <SafeAreaView style={styles.screen}>
-      <AppProvider id="realtimesyncpocrn-ockeg">
+      <AppProvider id={appId}>
         <UserProvider fallback={LoginScreen}>
           <RealmProvider
             sync={{flexible: true, onError: error => console.error(error)}}>
