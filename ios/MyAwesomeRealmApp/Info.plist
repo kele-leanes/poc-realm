@@ -52,6 +52,12 @@
         </dict>
       </dict>
     </dict>
+    <key>NSBonjourServices</key>
+    <array>
+      <string>_http._tcp</string>
+    </array>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>Local network access needed for React Native</string>
     <key>UILaunchStoryboardName</key>
     <string>SplashScreen</string>
     <key>UIRequiredDeviceCapabilities</key>

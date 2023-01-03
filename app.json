@@ -11,6 +11,11 @@
     },
     "android": {
       "package": "com.kele.leanes.MyAwesomeRealmApp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "99f3341a-2da4-435a-b64a-9c1c10cbe436"
+      }
     }
   }
 }
